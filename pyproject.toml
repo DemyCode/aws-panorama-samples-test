@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "aws-panorama-samples"
+version = "0.1.0"
+description = ""
+authors = ["Mehdi Bekhtaoui <mehdi.bekhtaoui@external.totalenergies.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.26.63"
+sagemaker = "^2.131.0"
+matplotlib = "^3.6.3"
+ipython = "^8.9.0"
+opencv-python = "^4.7.0.68"
+dlr = "^1.10.0"
+panoramacli = "^1.1.6"
+decouple = "^0.0.7"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.1.0"
+mypy = "^0.991"
+ipykernel = "^6.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

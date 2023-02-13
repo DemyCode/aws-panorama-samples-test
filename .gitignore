@@ -17,3 +17,5 @@ internal/
 *.DS_Store
 **/assets/*.tar.gz
 **/assets/*.json
+*.so
+aws
